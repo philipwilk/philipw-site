@@ -3,7 +3,7 @@ import { h } from 'preact'
 import { Router, RouteComponentProps } from '@reach/router'
 import { lazy } from 'preact/compat'
 
-import './App.css'
+import './App.sass'
 
 const Nav = lazy(() => import('./components/navbar'))
 const Home = lazy(() => import('./components/contents/home'))

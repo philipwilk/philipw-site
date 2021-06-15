@@ -2,7 +2,7 @@ import { h, render } from 'preact';
 import { Suspense, lazy } from 'preact/compat';
 import 'preact/devtools';
 import App from './App.js';
-import './index.css';
+import './index.sass';
 
 // Internationalisation packages
 import { I18nextProvider, initReactI18next } from 'preact-i18next'
